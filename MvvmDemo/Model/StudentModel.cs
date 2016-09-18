@@ -20,7 +20,7 @@ namespace MvvmDemo.Model
                 if (_firstName != value)
                 {
                     _firstName = value;
-                    OnPropertyChanged("FirstName");
+                    OnPropertyChanged(nameof(FirstName));
                     OnPropertyChanged("FullName");
                 }
 
